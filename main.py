@@ -71,7 +71,7 @@ print('')
 
 
 
-token = input(f'{X} [{C}⌯{X}] {C}ENTER TOKEN{X} » ' + C)
+token = "5592564116:AAH-_6jpmGQJAtUwbvAc8NdT2ouDJGaq3R0"
 print(Z+'Go to your bot baby 🦖🔥.')
 @bot.message_handler(commands = ["start"])
 
