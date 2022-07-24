@@ -70,32 +70,6 @@ else:
 print('')
 
 
-os.system('clear')
-print(Z+'━'*25)
-azooz=f" {X}« {C}Welcome To {X}ábøød {C}Tool {X}»"
-print(azooz)
-print(Z+'━'*25)
-def pas():
-	 J = input(f"{X}[{C}⌯{X}]{C} ENTER Password {X}»{C} ")
-	 e = "@Cu"
-	 if J in e:
-	 	print(F+"\n  ♔︎ GOOD LUCK ♔︎ ")
-	 	time.sleep(1)
-	 	os.system('clear')
-	 else:
-	 	print(Z+'  ERORR BRO ')
-	 	pas()
-pas()
-def azz():
-	gdo0 = (X+pyfiglet.figlet_format(f'a B o o D ',font='colossal')+f"""
-    {C}Script Checker all
-{Z}┏━━━━━━━━━━━━━━━┓           
-{X}┃{C} ⌯ Channel {Z}›{C} @WV7BOT{X}  ┃
-{Z}┗━━━━━━━━━━━━━━━┛          """)
-	for azoz in gdo0.splitlines():
-		time.sleep(0.05)
-		print(azoz)
-azz()
 
 token = input(f'{X} [{C}⌯{X}] {C}ENTER TOKEN{X} » ' + C)
 print(Z+'Go to your bot baby 🦖🔥.')
