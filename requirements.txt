@@ -6,6 +6,5 @@ gdolib
 instaloader
 mechanize
 uuid
-urllib
 urllib3
 hashlib
