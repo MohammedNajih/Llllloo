@@ -3,3 +3,9 @@ flask
 user_agent
 requests
 gdolib
+instaloader
+mechanize
+uuid
+urllib
+urllib3
+hashlib
