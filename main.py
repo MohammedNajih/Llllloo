@@ -18,13 +18,12 @@ logger.setLevel(logging.DEBUG)
 
 @bot.message_handler(commands=['start'])
 def start(message):
-    global name
     first = message.from_user.first_name
     bot.send_message(message.chat.id, text="بوت لعرض ايدي البوست")
     first = message.from_user.first_name
     bot.send_message(message.chat.id, text=" ارسل الرابط الان")
-@bot.message_handler(content_types = ['text'])
 
+@bot.message_handler(content_types = ['text'])
 def basha(m):
  ba = m.text 
  id = gdo_drow.id_post(ba)
