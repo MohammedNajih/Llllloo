@@ -2,7 +2,4 @@ pyTelegramBotAPI
 flask
 user_agent
 requests
-InstagramIG
 gdolib
-datetime
-pyfiglet
